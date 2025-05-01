@@ -1,3 +1,58 @@
-h1 {
+:root {
+  --purple: #9896f1;
+  --pink: #edb1f1a8;
+  --red: #f08ba2;
+}
+
+* {
   font-family: "Playwrite DE Grund", cursive;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+  padding: 0.5rem;
+  background-color: var(--pink);
+  max-width: 500px;
+  border-radius: 0.8rem;
+  max-height: 50rem;
+}
+
+#taskInput {
+  width: 90%;
+  max-width: 350px;
+  border: 2px solid #9896f1;
+  border-radius: 5px;
+  height: 1.5rem;
+  font-size: 1rem;
+}
+
+#addTask {
+  background-color: var(--purple);
+  height: 1.8rem;
+  width: 5rem;
+  border: 1px solid #4b4b86;
+  box-shadow: 2px 2px 5px var(--purple);
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+ul {
+  padding: 0;
+  margin: 1rem;
+}
+
+li {
+  list-style: none;
+  text-align: justify;
+  display: flex;
+  justify-content: space-between;
+}
+
+.deleteTask {
+  background-color: var(--red);
+  width: 4;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
 }
